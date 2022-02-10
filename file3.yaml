@@ -21,7 +21,7 @@ student:
     cell:
       provider: Verizon
       country_code: +1
-      number: 7894384950
+      number: 7894884950
     home:
       provider: T-mobile
       country_code: +1
