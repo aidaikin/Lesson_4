@@ -1,1 +1,44 @@
-Hello XML!
+<students>
+    <!--Student 1 -->
+    <student id="1927">
+        <name> John </name>
+        <lastName> Willson </lastName>
+        <age> 22 </age>
+        <gender> male </gender>
+        <enrollment date="06.20.2021" class="Biology 101"/>
+        <classes>
+            <firstclass> Biology </firstclass>
+            <secondclass> Chemistry </secondclass>
+            <thirdclass> Geography </thirdclass>
+        </classes>
+    </student>
+
+    <!--Student 2 -->
+    <student id="1932">
+        <name> Linda </name>
+        <lastName> Diaz </lastName>
+        <age> 21 </age>
+        <gender> female </gender>
+        <enrollment date="06.17.2021" class="Economics"/>
+        <classes>
+            <firstclass> Economics </firstclass>
+            <secondclass> Algebra </secondclass>
+            <thirdclass> Calculus </thirdclass>
+        </classes>
+    </student>
+
+    <!--Student 3 -->
+    <student id="1945">
+        <name> Mark </name>
+        <lastName> Borznowski </lastName>
+        <age> 25 </age>
+        <gender> male </gender>
+        <enrollment date="06.19.2021" class="Computer Science"/>
+        <classes>
+            <firstclass> Computer Science </firstclass>
+            <secondclass> Information Technology </secondclass>
+            <thirdclass> Statistics </thirdclass>
+            <deadline date="12.10.2021"/>
+        </classes>
+    </student>
+</students>

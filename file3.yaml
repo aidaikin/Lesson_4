@@ -1,1 +1,28 @@
-Hello YAML!
+student:
+  firstName: Andrew
+  lastName: Cameron
+  age: 23
+  school: London University
+  favorite_things_to_do:
+   -Partying
+   -Dancing
+   -Singing
+   -Playing games
+  characteristics:
+    height: 176cm
+    weight: 73kg
+    eyes: brown
+    hair: blonde
+  favorite_game: "Mario Go & Mortal Kombat"
+  is_married: null
+  favorite_quote: >
+    Every action you take is a vote for the type of person you wish to become
+  phone_number:
+    cell:
+      provider: Verizon
+      country_code: +1
+      number: 7894384950
+    home:
+      provider: T-mobile
+      country_code: +1
+      number: 6783920595

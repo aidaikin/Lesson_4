@@ -1,1 +1,31 @@
-Hello JSON!
+{
+  "firstName": "Max",
+  "lastName": "Johnson",
+  "yearBorn": 1996,
+  "isStudent": true,
+  "hobbies": ["Skating", "Video Games", "Reading"],
+  "address": {
+    "street": "235 Test St",
+    "city": "London",
+    "zipCode": 23558,
+    "apartmentNumber": null
+  },
+  "momsInfo": ["Mary", "Johnson", 1965, false, ["Knitting", "Cooking"], ["568 Cool Dr", "London", 23558], null],
+  "girlfriend": [
+    {
+      "firstName": "Mia",
+      "lastName": "Williams",
+      "yearBorn": 1997,
+      "isStudent": false,
+      "hobbies": ["Dancing", "Music", "Art"],
+      "address": {
+        "street": "78564 Robot Dreams Ave",
+        "city": "Miami",
+        "zipCode": 33647,
+        "apartmentNumber": 51
+      }
+    }
+  ]
+}
+
+
